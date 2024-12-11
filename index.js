@@ -50,6 +50,42 @@ if(job == 'lawyer'){
     console.log('your bill is 100k')
 }
 
+var classmate = ['Damola', 'Banjo','Ridwan','Sydney','Ayo','tochukwu','Gbenga']
+console.log(classmate);
+classmate.push('ehis');
+console.log(classmate);
+classmate.push('Daniel');
+console.log(classmate);
+classmate.pop()
+console.log(classmate);
+classmate.pop()
+console.log(classmate);
+
+classmate.shift()
+console.log(classmate);
+
+classmate.unshift('damola')
+console.log(classmate);
+
+console.log(classmate.length);
+console.log(classmate[0])
+
+classmate[3]= 'alabi'
+console.log(classmate);
+
+classmate[6]= 'temitayo'
+console.log(classmate);
+
+
+
+
+
+
+
+
+//var texting = ['jagons', 'false',false, 50, null,'null', undefined] 
+
+
 
 
 
